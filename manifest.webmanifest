@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Nogari Bakehouse",
+  "short_name": "Nogari",
+  "description": "Nogari Bakehouse · pedidos e cobranças",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#5C0C0D",
+  "theme_color": "#5C0C0D",
+  "icons": [
+    {
+      "src": "./nogari-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./nogari-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

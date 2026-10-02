@@ -1,0 +1,23 @@
+NOGARI V20 · NOTIFICACOES WEB PUSH
+
+PUBLICAR NO GITHUB PAGES (mesma pasta do site):
+- index.html
+- manifest.webmanifest
+- sw.js
+- nogari-icon-192.png
+- nogari-icon-512.png
+- nogari-apple-touch-icon.png
+
+NAO publicar o Studio Pro; ele fica local.
+
+DEPOIS DE PUBLICAR NO IPHONE:
+1. Remova o atalho antigo da Nogari da Tela de Inicio.
+2. Abra o site no Safari.
+3. Compartilhar > Adicionar a Tela de Inicio > Abrir como App.
+4. Abra pelo novo icone.
+5. Entre como ADM.
+6. Toque no sino de notificacoes no topo e permita.
+7. Arthur repete no aparelho dele.
+
+Visitantes do site publico nao veem o botao de notificacao e nao sao inscritos.
+Ao sair da conta ADM, a assinatura deste aparelho e removida.
