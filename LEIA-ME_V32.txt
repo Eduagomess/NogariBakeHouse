@@ -1,0 +1,24 @@
+NOGARI V32 - CORRECAO DO EDITOR ADM
+
+O QUE FOI CORRIGIDO
+- Conteudo do site nao e mais recarregado por atualizacoes de pedidos.
+- Fototeca nao e mais zerada por atualizacoes de pedidos ou Realtime.
+- Falha temporaria de internet nao faz o site voltar aos textos padrao.
+- Ultima configuracao valida fica em cache local como seguranca.
+- Conteudo do site salva automaticamente apos a digitacao e mantem o botao Salvar agora.
+- Fotos da Fototeca sao salvas automaticamente no Supabase assim que o upload termina.
+- Legendas e icones da Fototeca tambem tem salvamento automatico.
+- Salvamento de Conteudo e Fototeca busca primeiro a versao mais recente do Supabase e altera apenas a secao editada, reduzindo risco de sobrescrever outras alteracoes.
+- Atualizacoes em tempo real continuam ativas, mas nao podem apagar um formulario que esta sendo editado.
+
+O QUE VOCE PRECISA FAZER
+1. Nao execute nenhum SQL novo se o SQL da V31 ja foi executado com sucesso.
+2. Substitua no GitHub: index.html, manifest.webmanifest e sw.js pelos arquivos desta pasta.
+3. Mantenha os 3 icones na mesma pasta.
+4. Feche e abra novamente o app/atalho no iPhone.
+5. Entre no ADM > Editar site e refaca apenas os dados que a V31 ja possa ter sobrescrito.
+
+IMPORTANTE
+- O arquivo nogari_v31_supabase.sql foi mantido no pacote apenas para instalacao do zero.
+- Se voce ja rodou esse SQL, NAO precisa rodar novamente.
+- Cardapio, pedidos, usuarios, push e reset nao foram alterados nesta correcao.
