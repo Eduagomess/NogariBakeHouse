@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "Nogari Bakehouse",
+  "short_name": "Nogari",
+  "description": "Nogari Bakehouse · cardápio, pedidos e edição do site",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#5C0C0D",
+  "theme_color": "#5C0C0D",
+  "icons": [
+    {
+      "src": "./nogari-icon-192-v40.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./nogari-icon-512-v40.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./nogari-icon-512-v40.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

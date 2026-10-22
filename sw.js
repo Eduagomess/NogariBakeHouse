@@ -1,4 +1,4 @@
-/* Nogari Bakehouse · Web Push V32 */
+/* Nogari Bakehouse · Web Push V40 */
 self.addEventListener('install', function(event){
   self.skipWaiting();
 });
@@ -15,8 +15,8 @@ self.addEventListener('push', function(event){
   var title = data.title || 'Nogari · Novo lançamento';
   var options = {
     body: data.body || 'Há um novo lançamento aguardando atenção.',
-    icon: './nogari-icon-192.png?v=32',
-    badge: './nogari-icon-192.png?v=32',
+    icon: './nogari-icon-192-v40.png',
+    badge: './nogari-icon-192-v40.png',
     tag: data.tag || 'nogari-novo-lancamento',
     renotify: true,
     data: { url: data.url || '?nogari_admin=pedidos-novos' }
